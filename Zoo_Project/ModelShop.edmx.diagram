@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="691a8d52aafb4f90a0166bbc06943599" Name="Diagram1">
+        <EntityTypeShape EntityType="ZooShopModel.AccountingsSet" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooShopModel.AgentsSet" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooShopModel.ClientsSet" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooShopModel.ProductsSet" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooShopModel.SuppliersSet" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZooShopModel.Users" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ZooShopModel.FK_AccountingsSet_AgentsSet" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooShopModel.FK_AccountingsSet_ClientsSet" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooShopModel.FK_AccountingsSet_ProductsSet" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooShopModel.FK_AccountingsSet_SuppliersSet" ManuallyRouted="false" />
+        <AssociationConnector Association="ZooShopModel.FK_SuppliersSet_ProductsSet" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
