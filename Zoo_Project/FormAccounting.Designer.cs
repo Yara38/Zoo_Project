@@ -34,14 +34,6 @@
             this.buttonEdit = new System.Windows.Forms.Button();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.listViewAccounting = new System.Windows.Forms.ListView();
-            this.labelType = new System.Windows.Forms.Label();
-            this.comboBoxType = new System.Windows.Forms.ComboBox();
-            this.comboBoxClients = new System.Windows.Forms.ComboBox();
-            this.comboBoxAgents = new System.Windows.Forms.ComboBox();
-            this.labelClient = new System.Windows.Forms.Label();
-            this.labelAgent = new System.Windows.Forms.Label();
-            this.labelSupplier = new System.Windows.Forms.Label();
-            this.comboBoxSupplier = new System.Windows.Forms.ComboBox();
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -51,6 +43,14 @@
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.labelType = new System.Windows.Forms.Label();
+            this.comboBoxType = new System.Windows.Forms.ComboBox();
+            this.comboBoxClients = new System.Windows.Forms.ComboBox();
+            this.comboBoxAgents = new System.Windows.Forms.ComboBox();
+            this.labelClient = new System.Windows.Forms.Label();
+            this.labelAgent = new System.Windows.Forms.Label();
+            this.labelSupplier = new System.Windows.Forms.Label();
+            this.comboBoxSupplier = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // labelBalance
@@ -58,7 +58,7 @@
             this.labelBalance.AutoSize = true;
             this.labelBalance.Location = new System.Drawing.Point(12, 167);
             this.labelBalance.Name = "labelBalance";
-            this.labelBalance.Size = new System.Drawing.Size(49, 13);
+            this.labelBalance.Size = new System.Drawing.Size(48, 13);
             this.labelBalance.TabIndex = 33;
             this.labelBalance.Text = "Остаток";
             // 
@@ -66,7 +66,7 @@
             // 
             this.textBoxBalance.Location = new System.Drawing.Point(12, 183);
             this.textBoxBalance.Name = "textBoxBalance";
-            this.textBoxBalance.Size = new System.Drawing.Size(156, 20);
+            this.textBoxBalance.Size = new System.Drawing.Size(156, 21);
             this.textBoxBalance.TabIndex = 32;
             // 
             // buttonDel
@@ -129,12 +129,48 @@
             this.listViewAccounting.View = System.Windows.Forms.View.Details;
             this.listViewAccounting.SelectedIndexChanged += new System.EventHandler(this.listViewAccounting_SelectedIndexChanged);
             // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "id сотрудника";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Сотрудник";
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "id клиента";
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Клиент";
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "id поставщика";
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Поставщик";
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "id товара";
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Товар";
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "Остаток";
+            // 
             // labelType
             // 
             this.labelType.AutoSize = true;
             this.labelType.Location = new System.Drawing.Point(9, 127);
             this.labelType.Name = "labelType";
-            this.labelType.Size = new System.Drawing.Size(38, 13);
+            this.labelType.Size = new System.Drawing.Size(37, 13);
             this.labelType.TabIndex = 43;
             this.labelType.Text = "Товар";
             // 
@@ -203,42 +239,6 @@
             this.comboBoxSupplier.Size = new System.Drawing.Size(156, 21);
             this.comboBoxSupplier.TabIndex = 48;
             // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "id сотрудника";
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Сотрудник";
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "id клиента";
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Клиент";
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "id поставщика";
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Поставщик";
-            // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "id товара";
-            // 
-            // columnHeader10
-            // 
-            this.columnHeader10.Text = "Товар";
-            // 
-            // columnHeader11
-            // 
-            this.columnHeader11.Text = "Остаток";
-            // 
             // FormAccounting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -259,8 +259,10 @@
             this.Controls.Add(this.listViewAccounting);
             this.Controls.Add(this.labelBalance);
             this.Controls.Add(this.textBoxBalance);
+            this.Font = new System.Drawing.Font("Roboto Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "FormAccounting";
-            this.Text = "FormAccounting";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Учет товара";
             this.ResumeLayout(false);
             this.PerformLayout();
 

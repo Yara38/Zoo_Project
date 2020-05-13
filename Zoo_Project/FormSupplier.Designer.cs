@@ -133,7 +133,7 @@
             this.labelEmail.AutoSize = true;
             this.labelEmail.Location = new System.Drawing.Point(9, 87);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(37, 13);
+            this.labelEmail.Size = new System.Drawing.Size(38, 13);
             this.labelEmail.TabIndex = 33;
             this.labelEmail.Text = "Почта";
             // 
@@ -142,7 +142,7 @@
             this.labelPhone.AutoSize = true;
             this.labelPhone.Location = new System.Drawing.Point(9, 48);
             this.labelPhone.Name = "labelPhone";
-            this.labelPhone.Size = new System.Drawing.Size(52, 13);
+            this.labelPhone.Size = new System.Drawing.Size(51, 13);
             this.labelPhone.TabIndex = 32;
             this.labelPhone.Text = "Телефон";
             // 
@@ -159,21 +159,21 @@
             // 
             this.textBoxEmail.Location = new System.Drawing.Point(12, 103);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(100, 20);
+            this.textBoxEmail.Size = new System.Drawing.Size(100, 21);
             this.textBoxEmail.TabIndex = 30;
             // 
             // textBoxPhone
             // 
             this.textBoxPhone.Location = new System.Drawing.Point(12, 64);
             this.textBoxPhone.Name = "textBoxPhone";
-            this.textBoxPhone.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPhone.Size = new System.Drawing.Size(100, 21);
             this.textBoxPhone.TabIndex = 29;
             // 
             // textBoxName
             // 
             this.textBoxName.Location = new System.Drawing.Point(12, 25);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxName.Size = new System.Drawing.Size(100, 21);
             this.textBoxName.TabIndex = 28;
             // 
             // labelType
@@ -181,7 +181,7 @@
             this.labelType.AutoSize = true;
             this.labelType.Location = new System.Drawing.Point(9, 126);
             this.labelType.Name = "labelType";
-            this.labelType.Size = new System.Drawing.Size(38, 13);
+            this.labelType.Size = new System.Drawing.Size(37, 13);
             this.labelType.TabIndex = 40;
             this.labelType.Text = "Товар";
             // 
@@ -215,7 +215,9 @@
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.textBoxPhone);
             this.Controls.Add(this.textBoxName);
+            this.Font = new System.Drawing.Font("Roboto Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "FormSupplier";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Поставщик";
             this.ResumeLayout(false);
             this.PerformLayout();

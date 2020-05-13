@@ -120,8 +120,10 @@
             this.Controls.Add(this.buttonOpenSuppliers);
             this.Controls.Add(this.buttonOpenAgents);
             this.Controls.Add(this.buttonOpenClients);
+            this.Font = new System.Drawing.Font("Roboto Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "Menu";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "PetShop";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -52,7 +52,7 @@
             this.labelCount.AutoSize = true;
             this.labelCount.Location = new System.Drawing.Point(9, 127);
             this.labelCount.Name = "labelCount";
-            this.labelCount.Size = new System.Drawing.Size(66, 13);
+            this.labelCount.Size = new System.Drawing.Size(67, 13);
             this.labelCount.TabIndex = 40;
             this.labelCount.Text = "Количество";
             // 
@@ -60,7 +60,7 @@
             // 
             this.textBoxCount.Location = new System.Drawing.Point(12, 143);
             this.textBoxCount.Name = "textBoxCount";
-            this.textBoxCount.Size = new System.Drawing.Size(100, 20);
+            this.textBoxCount.Size = new System.Drawing.Size(100, 21);
             this.textBoxCount.TabIndex = 39;
             // 
             // labelType
@@ -68,7 +68,7 @@
             this.labelType.AutoSize = true;
             this.labelType.Location = new System.Drawing.Point(9, 46);
             this.labelType.Name = "labelType";
-            this.labelType.Size = new System.Drawing.Size(29, 13);
+            this.labelType.Size = new System.Drawing.Size(28, 13);
             this.labelType.TabIndex = 38;
             this.labelType.Text = "Тип ";
             // 
@@ -98,7 +98,7 @@
             // 
             this.textBoxPrice.Location = new System.Drawing.Point(12, 102);
             this.textBoxPrice.Name = "textBoxPrice";
-            this.textBoxPrice.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPrice.Size = new System.Drawing.Size(100, 21);
             this.textBoxPrice.TabIndex = 35;
             // 
             // labelName
@@ -114,7 +114,7 @@
             // 
             this.textBoxName.Location = new System.Drawing.Point(12, 23);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxName.Size = new System.Drawing.Size(100, 21);
             this.textBoxName.TabIndex = 41;
             // 
             // buttonDel
@@ -216,7 +216,9 @@
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.labelPrice);
             this.Controls.Add(this.textBoxPrice);
+            this.Font = new System.Drawing.Font("Roboto Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "FormProduct";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Товар";
             this.ResumeLayout(false);
             this.PerformLayout();
