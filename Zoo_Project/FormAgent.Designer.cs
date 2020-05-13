@@ -48,13 +48,15 @@
             this.textBoxLastName = new System.Windows.Forms.TextBox();
             this.textBoxMiddleName = new System.Windows.Forms.TextBox();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonDel
             // 
             this.buttonDel.BackColor = System.Drawing.Color.White;
             this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonDel.Location = new System.Drawing.Point(470, 213);
+            this.buttonDel.Location = new System.Drawing.Point(470, 214);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(85, 36);
             this.buttonDel.TabIndex = 27;
@@ -66,7 +68,7 @@
             // 
             this.buttonEdit.BackColor = System.Drawing.Color.White;
             this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEdit.Location = new System.Drawing.Point(376, 213);
+            this.buttonEdit.Location = new System.Drawing.Point(376, 214);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(85, 36);
             this.buttonEdit.TabIndex = 26;
@@ -78,7 +80,7 @@
             // 
             this.buttonAdd.BackColor = System.Drawing.Color.White;
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAdd.Location = new System.Drawing.Point(282, 213);
+            this.buttonAdd.Location = new System.Drawing.Point(282, 214);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(85, 36);
             this.buttonAdd.TabIndex = 25;
@@ -217,12 +219,23 @@
             this.textBoxFirstName.Size = new System.Drawing.Size(100, 21);
             this.textBoxFirstName.TabIndex = 14;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Zoo_Project.Properties.Resources._44441;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 213);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 63);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormAgent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(565, 260);
+            this.ClientSize = new System.Drawing.Size(565, 278);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonAdd);
@@ -242,6 +255,7 @@
             this.Name = "FormAgent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Сотрудники";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,5 +283,6 @@
         private System.Windows.Forms.TextBox textBoxLastName;
         private System.Windows.Forms.TextBox textBoxMiddleName;
         private System.Windows.Forms.TextBox textBoxFirstName;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

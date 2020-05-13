@@ -51,6 +51,8 @@
             this.labelAgent = new System.Windows.Forms.Label();
             this.labelSupplier = new System.Windows.Forms.Label();
             this.comboBoxSupplier = new System.Windows.Forms.ComboBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelBalance
@@ -239,12 +241,23 @@
             this.comboBoxSupplier.Size = new System.Drawing.Size(156, 21);
             this.comboBoxSupplier.TabIndex = 48;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Zoo_Project.Properties.Resources._44441;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 210);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 63);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 50;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormAccounting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(855, 260);
+            this.ClientSize = new System.Drawing.Size(855, 275);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelSupplier);
             this.Controls.Add(this.comboBoxSupplier);
             this.Controls.Add(this.comboBoxClients);
@@ -263,6 +276,7 @@
             this.Name = "FormAccounting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Учет товара";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,5 +307,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader9;
         private System.Windows.Forms.ColumnHeader columnHeader10;
         private System.Windows.Forms.ColumnHeader columnHeader11;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

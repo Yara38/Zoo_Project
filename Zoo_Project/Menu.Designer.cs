@@ -34,6 +34,8 @@
             this.buttonOpenProducts = new System.Windows.Forms.Button();
             this.buttonOpenAccountings = new System.Windows.Forms.Button();
             this.labelHello = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonOpenAgents
@@ -42,7 +44,7 @@
             this.buttonOpenAgents.Cursor = System.Windows.Forms.Cursors.Default;
             this.buttonOpenAgents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonOpenAgents.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.buttonOpenAgents.Location = new System.Drawing.Point(17, 104);
+            this.buttonOpenAgents.Location = new System.Drawing.Point(17, 197);
             this.buttonOpenAgents.Name = "buttonOpenAgents";
             this.buttonOpenAgents.Size = new System.Drawing.Size(228, 48);
             this.buttonOpenAgents.TabIndex = 4;
@@ -54,7 +56,7 @@
             // 
             this.buttonOpenClients.BackColor = System.Drawing.Color.White;
             this.buttonOpenClients.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOpenClients.Location = new System.Drawing.Point(17, 170);
+            this.buttonOpenClients.Location = new System.Drawing.Point(17, 263);
             this.buttonOpenClients.Name = "buttonOpenClients";
             this.buttonOpenClients.Size = new System.Drawing.Size(228, 48);
             this.buttonOpenClients.TabIndex = 3;
@@ -66,7 +68,7 @@
             // 
             this.buttonOpenSuppliers.BackColor = System.Drawing.Color.White;
             this.buttonOpenSuppliers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOpenSuppliers.Location = new System.Drawing.Point(17, 237);
+            this.buttonOpenSuppliers.Location = new System.Drawing.Point(17, 330);
             this.buttonOpenSuppliers.Name = "buttonOpenSuppliers";
             this.buttonOpenSuppliers.Size = new System.Drawing.Size(228, 48);
             this.buttonOpenSuppliers.TabIndex = 5;
@@ -78,7 +80,7 @@
             // 
             this.buttonOpenProducts.BackColor = System.Drawing.Color.White;
             this.buttonOpenProducts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOpenProducts.Location = new System.Drawing.Point(17, 302);
+            this.buttonOpenProducts.Location = new System.Drawing.Point(17, 395);
             this.buttonOpenProducts.Name = "buttonOpenProducts";
             this.buttonOpenProducts.Size = new System.Drawing.Size(228, 48);
             this.buttonOpenProducts.TabIndex = 6;
@@ -90,7 +92,7 @@
             // 
             this.buttonOpenAccountings.BackColor = System.Drawing.Color.White;
             this.buttonOpenAccountings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOpenAccountings.Location = new System.Drawing.Point(17, 368);
+            this.buttonOpenAccountings.Location = new System.Drawing.Point(17, 461);
             this.buttonOpenAccountings.Name = "buttonOpenAccountings";
             this.buttonOpenAccountings.Size = new System.Drawing.Size(228, 48);
             this.buttonOpenAccountings.TabIndex = 7;
@@ -108,12 +110,23 @@
             this.labelHello.TabIndex = 8;
             this.labelHello.Text = " ";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Zoo_Project.Properties.Resources._44441;
+            this.pictureBox1.Location = new System.Drawing.Point(17, 46);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(228, 145);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(261, 450);
+            this.ClientSize = new System.Drawing.Size(261, 523);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelHello);
             this.Controls.Add(this.buttonOpenAccountings);
             this.Controls.Add(this.buttonOpenProducts);
@@ -124,6 +137,7 @@
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PetShop";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,6 +151,7 @@
         private System.Windows.Forms.Button buttonOpenProducts;
         private System.Windows.Forms.Button buttonOpenAccountings;
         private System.Windows.Forms.Label labelHello;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

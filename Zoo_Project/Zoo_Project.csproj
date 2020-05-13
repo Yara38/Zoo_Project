@@ -161,6 +161,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EntityDeploy Include="ModelShop.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -194,6 +195,8 @@
       <DependentUpon>ModelShop.edmx</DependentUpon>
       <LastGenOutput>ModelShop.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\44441.png" />
+    <None Include="Resources\4444.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

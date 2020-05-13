@@ -45,6 +45,8 @@
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.labelType = new System.Windows.Forms.Label();
             this.comboBoxType = new System.Windows.Forms.ComboBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonDel
@@ -197,12 +199,23 @@
             this.comboBoxType.Size = new System.Drawing.Size(100, 21);
             this.comboBoxType.TabIndex = 39;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Zoo_Project.Properties.Resources._44441;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 195);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 63);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 41;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormSupplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(565, 260);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelType);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.buttonDel);
@@ -219,6 +232,7 @@
             this.Name = "FormSupplier";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Поставщик";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,5 +257,6 @@
         private System.Windows.Forms.Label labelType;
         private System.Windows.Forms.ComboBox comboBoxType;
         private System.Windows.Forms.ColumnHeader Товар;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
